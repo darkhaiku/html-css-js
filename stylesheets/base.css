@@ -1,22 +1,24 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.5;
-
-    background-color: white;
-    color: black;
-    margin: 40px auto 40px auto;
-    width: 620px;
+    background-color: #004d9d;
+    color: #ffffff;
 }
 
-p {
-    color: rgb(63, 160, 160);
-}
 
 img {
     width: 100px;
 }
 
 a {
-    color: red;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    /* vh relative to the height of the browser */
+    /* 100% of the height of browser */
+    height: 100vh;
+    background-image: url(../images/assets/sally_1.jpg);
+    /* covering full width and height of section */
+    background-size: cover;
 }
